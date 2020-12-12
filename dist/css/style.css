@@ -84,6 +84,7 @@ h1, h2, h3 {
   src: url("../fonts/Wingdings/Wingdings.eot?#iefix") format("embedded-opentype"), url("../fonts/Wingdings/Wingdings.woff") format("woff"), url("../fonts/Wingdings/Wingdings.woff2") format("woff2"), url("../fonts/Wingdings/Wingdings.ttf") format("truetype"), url("../fonts/Wingdings/Wingdings.svg") format("svg"); }
 
 .page {
+  min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,8 +416,10 @@ h1, h2, h3 {
       font-size: 11px; } }
 
 /* settings */
-html.lock {
-  overflow: hidden; }
+html {
+  height: 100%; }
+  html.lock {
+    overflow: hidden; }
 
 a {
   -webkit-transition: .1s;
@@ -431,6 +434,7 @@ textarea {
   font-size: 16px; }
 
 body {
+  height: 100%;
   min-width: 319px;
   background-color: #fff;
   font-family: "Muli", sans-serif;

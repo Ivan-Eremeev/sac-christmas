@@ -37,6 +37,7 @@ $break_xs: 500px;
 
 /* settings */
 html {
+  height: 100%;
   &.lock {
     overflow: hidden;
   }
@@ -52,6 +53,7 @@ textarea {
   font-size: 16px;
 }
 body {
+  height: 100%;
   min-width: 319px;
   background-color: #fff;
   font-family: "Muli", sans-serif;
