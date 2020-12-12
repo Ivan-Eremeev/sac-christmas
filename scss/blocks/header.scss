@@ -16,7 +16,10 @@
   }
 
   @media (max-width: $break_sm) {
+    max-width: 430px;
     padding: 18px 0;
+    left: 50%;
+    transform: translate(-50%,0);
   }
 }
 

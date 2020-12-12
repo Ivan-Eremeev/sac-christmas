@@ -104,7 +104,12 @@ h1, h2, h3 {
       padding: 20px 0 20px; } }
   @media (max-width: 769px) {
     .header {
-      padding: 18px 0; } }
+      max-width: 430px;
+      padding: 18px 0;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); } }
 
 .logo {
   display: inline-block; }
@@ -192,7 +197,7 @@ h1, h2, h3 {
   .welcome_btn {
     display: block;
     padding: 8px 15px;
-    background-color: #de0b5e;
+    background-color: #ff005c;
     border: 1px solid transparent;
     border-radius: 5px;
     font-size: 40px;
@@ -255,16 +260,25 @@ h1, h2, h3 {
     position: relative;
     line-height: 1; }
     .steps_item--1 {
-      background-image: url(../img/rectangle1.png);
-      z-index: 3; }
+      background-image: url(../img/rectangle1.png); }
     .steps_item--2 {
-      background-image: url(../img/rectangle2.png);
-      z-index: 2; }
+      background-image: url(../img/rectangle2.png); }
     .steps_item--3 {
-      background-image: url(../img/rectangle3.png);
-      z-index: 1; }
+      background-image: url(../img/rectangle3.png); }
     .steps_item span {
       display: block; }
+  .steps_triangle {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0; }
+    .steps_triangle--before {
+      right: calc(100% - 1px);
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .steps_triangle--after {
+      left: calc(100% - 1px); }
   .steps_num {
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -289,6 +303,8 @@ h1, h2, h3 {
   @media (max-width: 1050px) {
     .steps_item {
       padding: 10px 20px 10px 20px; }
+      .steps_item--1 {
+        background-image: url(../img/rectangle1-min.png); }
     .steps_num {
       width: 55px;
       height: 55px; } }
@@ -494,8 +510,8 @@ body {
     .wrapper {
       padding-right: 15px; } }
 
-*:-webkit-autofill {
-  -webkit-box-shadow: inset 0 0 0 50px #fff !important; }
+a {
+  -webkit-tap-highlight-color: transparent; }
 
 *::-webkit-input-placeholder {
   color: #a9a9a9;
