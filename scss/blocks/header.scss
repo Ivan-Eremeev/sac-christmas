@@ -1,0 +1,82 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  padding: 32px 0 0;
+  position: absolute;
+
+  @media (max-width: $break_xl) {
+    padding: 20px 0 20px;
+  }
+
+  @media (max-width: $break_sm) {
+    padding: 18px 0;
+  }
+}
+
+.logo {
+  display: inline-block;
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  background-image: url(../img/snow.png),
+  linear-gradient(to bottom, #021679 15%, #114fb4, #e6e3c0 85%);
+  background-color: #114fb4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom -300px center, center;
+
+  >.wrapper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+    background-image: url(../img/image-1920.png);
+    background-repeat: no-repeat;
+    background-position: right 185px top;
+    background-size: auto 90%;
+  }
+  @media (max-width: 2400px) {
+    background-position: bottom -250px center,
+    center;
+  }
+  @media (max-width: 1700px) {
+    >.wrapper {
+      background-position: right top;
+    }
+  }
+  @media (max-width: $break_xl) {
+    >.wrapper {
+      background-position: right -200px top;
+    }
+  }
+  @media (max-width: $break_lg) {
+    >.wrapper {
+      
+    }
+  }
+  @media (max-width: $break_md) {
+    >.wrapper {
+      background-position: right -350px top;
+    }
+  }
+
+  @media (max-width: $break_sm) {
+
+    >.wrapper {
+      background-position: center top 550px;
+      background-size: 520px auto;
+    }
+  }
+
+  @media (max-width: $break_xs) {
+    >.wrapper {}
+  }
+}
