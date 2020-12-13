@@ -27,39 +27,39 @@
     &--1 {
       &:before {
         background-image: 
-          linear-gradient(to top left, #000f9f 50%, transparent 51.5%),
-          linear-gradient(to bottom left, #000f9f 50%, transparent 51.5%);
+          linear-gradient(to top left, #000f9f 50%, transparent 53%),
+          linear-gradient(to bottom left, #000f9f 50%, transparent 53%);
       }
       &:after {
         background-image: 
-          linear-gradient(to top right, #000f9f 50%, transparent 51.5%),
-          linear-gradient(to bottom right, #000f9f 50%, transparent 51.5%);
+          linear-gradient(to top right, #000f9f 50%, transparent 53%),
+          linear-gradient(to bottom right, #000f9f 50%, transparent 53%);
       }
     }
     &--2 {
       &:before {
         background-image:
-          linear-gradient(to top left, #ff005c 50%, transparent 51.5%),
-          linear-gradient(to bottom left, #ff005c 50%, transparent 51.5%);
+          linear-gradient(to top left, #ff005c 50%, transparent 53%),
+          linear-gradient(to bottom left, #ff005c 50%, transparent 53%);
       }
 
       &:after {
         background-image:
-          linear-gradient(to top right, #ff005c 50%, transparent 51.5%),
-          linear-gradient(to bottom right, #ff005c 50%, transparent 51.5%);
+          linear-gradient(to top right, #ff005c 50%, transparent 53%),
+          linear-gradient(to bottom right, #ff005c 50%, transparent 53%);
       }
     }
     &--3 {
       &:before {
         background-image:
-          linear-gradient(to top left, #75c758 50%, transparent 51.5%),
-          linear-gradient(to bottom left, #75c758 50%, transparent 51.5%);
+          linear-gradient(to top left, #75c758 50%, transparent 53%),
+          linear-gradient(to bottom left, #75c758 50%, transparent 53%);
       }
 
       &:after {
         background-image:
-          linear-gradient(to top right, #75c758 50%, transparent 51.5%),
-          linear-gradient(to bottom right, #75c758 50%, transparent 51.5%);
+          linear-gradient(to top right, #75c758 50%, transparent 53%),
+          linear-gradient(to bottom right, #75c758 50%, transparent 53%);
       }
     }
   }

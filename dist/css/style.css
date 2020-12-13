@@ -266,29 +266,29 @@ h1, h2, h3 {
       background-position: top left, bottom left;
       background-repeat: no-repeat; }
     .steps_col--1:before {
-      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000f9f), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #000f9f), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom right, #000f9f 50%, transparent 51.5%), -o-linear-gradient(top right, #000f9f 50%, transparent 51.5%);
-      background-image: linear-gradient(to top left, #000f9f 50%, transparent 51.5%), linear-gradient(to bottom left, #000f9f 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000f9f), color-stop(53%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #000f9f), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom right, #000f9f 50%, transparent 53%), -o-linear-gradient(top right, #000f9f 50%, transparent 53%);
+      background-image: linear-gradient(to top left, #000f9f 50%, transparent 53%), linear-gradient(to bottom left, #000f9f 50%, transparent 53%); }
     .steps_col--1:after {
-      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #000f9f), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #000f9f), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom left, #000f9f 50%, transparent 51.5%), -o-linear-gradient(top left, #000f9f 50%, transparent 51.5%);
-      background-image: linear-gradient(to top right, #000f9f 50%, transparent 51.5%), linear-gradient(to bottom right, #000f9f 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #000f9f), color-stop(53%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #000f9f), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom left, #000f9f 50%, transparent 53%), -o-linear-gradient(top left, #000f9f 50%, transparent 53%);
+      background-image: linear-gradient(to top right, #000f9f 50%, transparent 53%), linear-gradient(to bottom right, #000f9f 50%, transparent 53%); }
     .steps_col--2:before {
-      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #ff005c), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #ff005c), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom right, #ff005c 50%, transparent 51.5%), -o-linear-gradient(top right, #ff005c 50%, transparent 51.5%);
-      background-image: linear-gradient(to top left, #ff005c 50%, transparent 51.5%), linear-gradient(to bottom left, #ff005c 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #ff005c), color-stop(53%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #ff005c), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom right, #ff005c 50%, transparent 53%), -o-linear-gradient(top right, #ff005c 50%, transparent 53%);
+      background-image: linear-gradient(to top left, #ff005c 50%, transparent 53%), linear-gradient(to bottom left, #ff005c 50%, transparent 53%); }
     .steps_col--2:after {
-      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #ff005c), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #ff005c), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom left, #ff005c 50%, transparent 51.5%), -o-linear-gradient(top left, #ff005c 50%, transparent 51.5%);
-      background-image: linear-gradient(to top right, #ff005c 50%, transparent 51.5%), linear-gradient(to bottom right, #ff005c 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #ff005c), color-stop(53%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #ff005c), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom left, #ff005c 50%, transparent 53%), -o-linear-gradient(top left, #ff005c 50%, transparent 53%);
+      background-image: linear-gradient(to top right, #ff005c 50%, transparent 53%), linear-gradient(to bottom right, #ff005c 50%, transparent 53%); }
     .steps_col--3:before {
-      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #75c758), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #75c758), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom right, #75c758 50%, transparent 51.5%), -o-linear-gradient(top right, #75c758 50%, transparent 51.5%);
-      background-image: linear-gradient(to top left, #75c758 50%, transparent 51.5%), linear-gradient(to bottom left, #75c758 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #75c758), color-stop(53%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #75c758), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom right, #75c758 50%, transparent 53%), -o-linear-gradient(top right, #75c758 50%, transparent 53%);
+      background-image: linear-gradient(to top left, #75c758 50%, transparent 53%), linear-gradient(to bottom left, #75c758 50%, transparent 53%); }
     .steps_col--3:after {
-      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #75c758), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #75c758), color-stop(51.5%, transparent));
-      background-image: -o-linear-gradient(bottom left, #75c758 50%, transparent 51.5%), -o-linear-gradient(top left, #75c758 50%, transparent 51.5%);
-      background-image: linear-gradient(to top right, #75c758 50%, transparent 51.5%), linear-gradient(to bottom right, #75c758 50%, transparent 51.5%); }
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #75c758), color-stop(53%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #75c758), color-stop(53%, transparent));
+      background-image: -o-linear-gradient(bottom left, #75c758 50%, transparent 53%), -o-linear-gradient(top left, #75c758 50%, transparent 53%);
+      background-image: linear-gradient(to top right, #75c758 50%, transparent 53%), linear-gradient(to bottom right, #75c758 50%, transparent 53%); }
   .steps_item {
     display: -webkit-box;
     display: -ms-flexbox;
