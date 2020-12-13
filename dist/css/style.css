@@ -244,6 +244,51 @@ h1, h2, h3 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+  .steps_col {
+    width: 32%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .steps_col:before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 100%;
+      background-size: 100% 50.5%;
+      background-position: top right, bottom right;
+      background-repeat: no-repeat; }
+    .steps_col:after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 100%;
+      background-size: 100% 50.5%;
+      background-position: top left, bottom left;
+      background-repeat: no-repeat; }
+    .steps_col--1:before {
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000f9f), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #000f9f), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom right, #000f9f 50%, transparent 51.5%), -o-linear-gradient(top right, #000f9f 50%, transparent 51.5%);
+      background-image: linear-gradient(to top left, #000f9f 50%, transparent 51.5%), linear-gradient(to bottom left, #000f9f 50%, transparent 51.5%); }
+    .steps_col--1:after {
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #000f9f), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #000f9f), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom left, #000f9f 50%, transparent 51.5%), -o-linear-gradient(top left, #000f9f 50%, transparent 51.5%);
+      background-image: linear-gradient(to top right, #000f9f 50%, transparent 51.5%), linear-gradient(to bottom right, #000f9f 50%, transparent 51.5%); }
+    .steps_col--2:before {
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #ff005c), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #ff005c), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom right, #ff005c 50%, transparent 51.5%), -o-linear-gradient(top right, #ff005c 50%, transparent 51.5%);
+      background-image: linear-gradient(to top left, #ff005c 50%, transparent 51.5%), linear-gradient(to bottom left, #ff005c 50%, transparent 51.5%); }
+    .steps_col--2:after {
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #ff005c), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #ff005c), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom left, #ff005c 50%, transparent 51.5%), -o-linear-gradient(top left, #ff005c 50%, transparent 51.5%);
+      background-image: linear-gradient(to top right, #ff005c 50%, transparent 51.5%), linear-gradient(to bottom right, #ff005c 50%, transparent 51.5%); }
+    .steps_col--3:before {
+      background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #75c758), color-stop(51.5%, transparent)), -webkit-gradient(linear, right top, left bottom, color-stop(50%, #75c758), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom right, #75c758 50%, transparent 51.5%), -o-linear-gradient(top right, #75c758 50%, transparent 51.5%);
+      background-image: linear-gradient(to top left, #75c758 50%, transparent 51.5%), linear-gradient(to bottom left, #75c758 50%, transparent 51.5%); }
+    .steps_col--3:after {
+      background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #75c758), color-stop(51.5%, transparent)), -webkit-gradient(linear, left top, right bottom, color-stop(50%, #75c758), color-stop(51.5%, transparent));
+      background-image: -o-linear-gradient(bottom left, #75c758 50%, transparent 51.5%), -o-linear-gradient(top left, #75c758 50%, transparent 51.5%);
+      background-image: linear-gradient(to top right, #75c758 50%, transparent 51.5%), linear-gradient(to bottom right, #75c758 50%, transparent 51.5%); }
   .steps_item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -251,20 +296,22 @@ h1, h2, h3 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 32%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     min-height: 124px;
-    padding: 10px 20px 10px 30px;
+    padding: 10px 0;
     background-size: 100% 100%;
     font-family: "Muli", sans-serif;
     color: #fff;
     position: relative;
     line-height: 1; }
     .steps_item--1 {
-      background-image: url(../img/rectangle1.png); }
+      background-color: #000f9f; }
     .steps_item--2 {
-      background-image: url(../img/rectangle2.png); }
+      background-color: #ff005c; }
     .steps_item--3 {
-      background-image: url(../img/rectangle3.png); }
+      background-color: #75c758; }
     .steps_item span {
       display: block; }
   .steps_triangle {
@@ -301,10 +348,6 @@ h1, h2, h3 {
     .steps_text {
       font-size: 18px; } }
   @media (max-width: 1050px) {
-    .steps_item {
-      padding: 10px 20px 10px 20px; }
-      .steps_item--1 {
-        background-image: url(../img/rectangle1-min.png); }
     .steps_num {
       width: 55px;
       height: 55px; } }
@@ -313,21 +356,24 @@ h1, h2, h3 {
       max-width: 400px;
       margin-left: auto;
       margin-right: auto; }
-      .steps_item {
-        min-height: auto;
+      .steps_col {
         width: 100%;
         margin-bottom: 20px; }
+        .steps_col:after, .steps_col:before {
+          width: 20px; }
+      .steps_item {
+        min-height: auto; }
       .steps_title {
         display: 35px; }
       .steps_text {
         font-size: 18px; } }
-  @media (max-width: 500px) {
+  @media (max-width: 375px) {
     .steps_num {
       font-size: 40px; }
     .steps_title {
-      font-size: 18px; }
+      font-size: 20px; }
     .steps_text {
-      font-size: 10px; } }
+      font-size: 14px; } }
 
 .platforms {
   background-color: #e8e8e8;
