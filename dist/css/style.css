@@ -338,7 +338,7 @@ h1, h2, h3 {
     font-weight: bold;
     text-transform: uppercase; }
   .steps_text {
-    font-size: 28px;
+    font-size: 26px;
     font-style: italic; }
   @media (max-width: 1400px) {
     .steps_item {
